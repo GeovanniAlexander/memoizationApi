@@ -16,8 +16,6 @@ const dataRoutes = require('./routes/index');
 app.use(express.json());
 app.use('/', dataRoutes);
 
-
-
 app.listen(port, () => {
     console.log(`Listen on ${ port }`);
 })
